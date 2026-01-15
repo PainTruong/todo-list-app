@@ -57,4 +57,4 @@ Dữ liệu được lưu trữ bằng **LocalStorage** trên trình duyệt.
 ## Cách cài đặt và sử dụng
 1. Clone repository:
    ```bash
-   git clone <link-repository>
+   [git clone <link-repository>](https://paintruong.github.io/todo-list-app/)
