@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>To-Do List (Based on TodoMVC)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<section class="todoapp">
+  <header class="header">
+    <h1>to-do</h1>
+    <input class="new-todo" placeholder="Hôm nay bạn cần làm gì?" autofocus />
+    <input type="datetime-local" class="reminder-time" />
+  </header>
+
+  <section class="main">
+    <ul class="todo-list"></ul>
+  </section>
+
+  <footer class="footer">
+    <span class="todo-count"></span>
+    <button class="clear-completed">Xóa đã hoàn thành</button>
+  </footer>
+</section>
+
+<section class="timer">
+  <h3>Focus Timer</h3>
+  <button onclick="startTimer()">Bắt đầu 25 phút</button>
+  <p id="time-display"></p>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
